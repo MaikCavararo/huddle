@@ -1,0 +1,46 @@
+@media (max-width: 720px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    .hud {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hud-text {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .uppertext {
+        font-size: 2.2rem;
+        margin-top: 100px;
+    }
+
+    .lowertext {
+        line-height: 2rem;
+    }
+
+    .register {
+        width: 300px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .social-links .social {
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+    }
+
+    .social-links .social:hover {
+        border: 1px solid hsl(300, 69%, 71%);
+    }
+}
